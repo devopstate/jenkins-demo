@@ -1,6 +1,8 @@
 print("hello from github")
 print("new changes added.de!")
-from datetime import date
+from datetime import datetime
 
-today = date.today()
-print("Today's date:", today)
+# datetime object containing current date and time
+now = datetime.now()
+ 
+print("now =", now)
